@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            font-family: Arial, sans-serif;
+        }
+
+        .main {
+            border-image: linear-gradient(to right, red, rgb(228, 207, 167), rgb(213, 213, 158), green, blue, indigo, violet) 1;
+            text-align: center;
+        }
+
+        .logo-img {
+            width: 200px;
+            margin: 0 auto 20px auto;
+            /* left-right auto = center */
+            display: block;
+        }
+
+        .search-input {
+            width: 500px;
+            height: 40px;
+            font-size: 16px;
+            padding: 0 10px;
+            margin-bottom: 20px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            box-shadow: none;
+            outline: none;
+        }
+
+        button {
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            color: #3c4043;
+            font-size: 14px;
+            margin: 11px 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <img class="logo-img" src="Google-Logo.png" alt="" style="width: 200px;">
+        <input class="search-input" type="text">
+        <div>
+            <button class="search-btn">Google Search</button>
+            <button class="lucky-btn">I'm Feeling Lucky</button>
+        </div>
+    </div>
+</body>
+
+</html>
